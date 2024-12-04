@@ -50,40 +50,31 @@ pip install -e .
 
 This will install the package in "editable" mode, allowing you to modify the code as needed while testing your changes.
 
-## Usage Example
+# Money Converter
 
-Once you've installed the package, you can begin interacting with LetsDial's services in your Python application.
+A simple web-based money converter that allows users to convert between different currencies. Currently, it supports converting between USD (United States Dollar) and EUR (Euro). The conversion is based on predefined exchange rates, but it can be extended to use real-time exchange rates with an API.
 
-Here’s an example of how to send a simple greeting message using the library:
+## Features
+- Convert between USD and EUR.
+- Simple, user-friendly interface.
+- Responsive design, works well on both desktop and mobile devices.
+- Provides real-time results as soon as you enter the amount.
 
-### Example Code:
+## Technologies Used
+- **HTML**: For the structure and content of the webpage.
+- **CSS**: For styling and layout.
+- **JavaScript**: For handling the currency conversion logic.
 
-```python
-# Import the LetsDial package
-from letsdial import communication
+## Setup and Installation
 
-# Initialize the service (replace with your actual credentials)
-service = communication.LetsDialService(api_key='your_api_key')
+### Prerequisites
+No additional software is required. Just a web browser to run the HTML file.
 
-# Send a greeting message
-response = service.send_sms(
-    to='+1234567890',  # Recipient phone number
-    message='Hello, from LetsDial!'
-)
-
-print("Message sent successfully!" if response['status'] == 'success' else "Failed to send message")
-```
-
-This example demonstrates how to send an SMS using the LetsDial service. Replace `your_api_key` with your actual API key and the phone number with the recipient's phone number.
-
-## Documentation
-
-- **Virtual Numbers**: To request a virtual number, use the `get_virtual_number` function.
-- **VOIP Calls**: The `make_voip_call` function facilitates VOIP calls for businesses.
-- **Cloud Contact Center**: Use the `create_contact_center` function to create and manage cloud-based call centers.
-
-For detailed documentation, check the [Wiki](https://github.com/LetsDial/letsdial-python/wiki) or refer to the API reference section.
-
+### Steps
+1. Clone the repository or download the project files.
+   ```bash
+   git clone https://github.com/your-username/money-converter.git
+   
 ## Contributing
 
 We appreciate your interest in contributing to *LetsDial*. To help improve this project, please follow these steps:
