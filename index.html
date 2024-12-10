@@ -3,38 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Money Converter</title>
+    <title>LetsDial</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Money Converter</h1>
-        <div class="converter">
-            <div class="input-section">
-                <label for="amount">Amount:</label>
-                <input type="number" id="amount" placeholder="Enter amount">
+    <header>
+        <div class="logo">
+            <h1>LetsDial</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#unique-features">Unique Features</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="overview" class="section">
+        <div class="container">
+            <h2>Overview</h2>
+            <p>Let's Dial is a cutting-edge communication platform offering high-quality international calling services with a focus on affordability, reliability, and ease of use. Whether you're a business or an individual, our platform ensures smooth and secure connections worldwide, anytime, anywhere.</p>
+            <a href="https://www.letsdial.com" target="_blank" class="btn-primary">Explore Our Platform</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a trusted name in global communication services. Our mission is to provide seamless, high-quality calls at an affordable rate, while ensuring complete security and customer satisfaction. With Let's Dial, you can connect with anyone, anywhere, anytime without worrying about call quality or hidden fees.</p>
+        </div>
+    </section>
+
+    <section id="features" class="section">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature-card">
+                <h3>Global Connectivity</h3>
+                <p>Enjoy seamless international calling with Let's Dial. Connect with loved ones or clients in over 100 countries.</p>
             </div>
-            <div class="currency-section">
-                <label for="from-currency">From Currency:</label>
-                <select id="from-currency">
-                    <option value="USD">USD</option>
-                    <option value="EUR">EUR</option>
-                </select>
+            <div class="feature-card">
+                <h3>High-Quality Audio</h3>
+                <p>We ensure crystal-clear voice calls, minimizing disruptions for uninterrupted communication.</p>
             </div>
-            <div class="currency-section">
-                <label for="to-currency">To Currency:</label>
-                <select id="to-currency">
-                    <option value="EUR">EUR</option>
-                    <option value="USD">USD</option>
-                </select>
-            </div>
-            <button id="convert-button">Convert</button>
-            <div class="result-section">
-                <p id="result">Converted amount will appear here</p>
+            <div class="feature-card">
+                <h3>Real-Time Support</h3>
+                <p>Our dedicated customer service team is available 24/7 to help you with any inquiries or issues you may encounter.</p>
             </div>
         </div>
-    </div>
-    
-    <script src="app.js"></script>
+    </section>
+
+    <section id="unique-features" class="section">
+        <div class="container">
+            <h2>Unique Features</h2>
+            <p>What sets Let's Dial apart from other communication services? Discover our advanced features:</p>
+            <ul>
+                <li>Voice Messaging and Voicemail Support</li>
+                <li>Call Recording for important conversations</li>
+                <li>Multiple Language Support for global users</li>
+                <li>End-to-End Encryption for enhanced privacy and security</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or require assistance, feel free to reach out to us:</p>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" id="name" required>
+                <input type="email" placeholder="Your Email" id="email" required>
+                <textarea placeholder="Your Message" id="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Let's Dial. All rights reserved. | <a href="https://www.letsdial.com" target="_blank">Visit Our Website</a></p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
