@@ -1,72 +1,161 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+/* Basic Reset */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body & Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-top: 50px; /* Space for the fixed header */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Section Styles */
+.section {
+    padding: 60px 20px;
+    margin-top: 50px; /* Offset for fixed header */
 }
 
 .container {
-    background-color: white;
-    border-radius: 8px;
-    padding: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
-}
-
-h1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
     text-align: center;
+}
+
+h2 {
+    font-size: 2.2rem;
     color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
 }
 
-.converter {
-    margin-top: 20px;
+h3 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+    font-weight: 500;
 }
 
-.input-section,
-.currency-section {
-    margin-bottom: 15px;
+.feature-card {
+    background-color: white;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s;
 }
 
-label {
-    font-weight: bold;
-    color: #555;
+.feature-card:hover {
+    transform: translateY(-5px);
 }
 
-input, select {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 16px;
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
 }
 
-button {
-    width: 100%;
-    padding: 10px;
+ul li {
+    font-size: 1.1rem;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 12px 25px;
     background-color: #4CAF50;
     color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
 }
 
-button:hover {
+.btn-primary:hover {
     background-color: #45a049;
 }
 
-.result-section {
-    margin-top: 20px;
+/* Contact Form */
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 12px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #444;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
     text-align: center;
 }
 
-#result {
-    font-size: 18px;
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
     font-weight: bold;
-    color: #333;
 }
+
+footer a:hover
