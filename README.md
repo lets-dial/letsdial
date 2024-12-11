@@ -8,21 +8,21 @@ Welcome to the official repository of **Letsdial**, a cutting-edge communication
 ---
 
 ## Table of Contents
-- [Overview](#overview)
-- [About Us](#about-us)
-- [Features](#features)
-- [Unique Features](#unique-features)
-- [Contact Us](#contact-us)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Support](#support)
+- [Overview](#overview).
+- [About Us](#about-us).
+- [Features](#features).
+- [Unique Features](#unique-features).
+- [Contact Us](#contact-us).
+- [Installation](#installation).
+- [Usage](#usage).
+- [Contributing](#contributing).
+- [License](#license).
+- [Support](#support).
 
 ---
 
 ## Overview
-Letsdial is a high-quality communication platform offering seamless international calling services for both businesses and individuals. We aim to provide affordable and reliable calling solutions with a focus on ease of use and security. [Explore Our Platform](https://www.letsdial.com).
+**[Letsdial](https://www.letsdial.com/)** is a high-quality communication platform offering seamless international calling services for both businesses and individuals. We aim to provide affordable and reliable calling solutions with a focus on ease of use and security. [Explore Our Platform](https://www.letsdial.com).
 
 ---
 
