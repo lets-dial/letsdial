@@ -25,9 +25,7 @@ Letsdial provides businesses with scalable and reliable communication tools, inc
 
 ## Features  
 
-- **Virtual Numbers**: Cost-effective and reliable international calling services for businesses.  
-- **Bulk SMS**: Easily manage and run targeted SMS campaigns to engage with customers.  
-- **VoIP Solutions**: Flexible, high-quality voice solutions for both small businesses and enterprises.  
+- **Phone Number**: Cost-effective and reliable international calling services for businesses.    
 - **Cloud Telephony**: Advanced cloud-based telephony services that integrate seamlessly with your business operations.  
 - **Customizable Greetings**: Personalize voicemail and call routing to enhance customer interaction.  
 - **Real-Time Call Analytics**: Monitor, track, and analyze call data for better decision-making.  
@@ -115,4 +113,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 
 ### Key Updates:
-- I added the link to the [Letsdial](https://www.letsdial.com) website in the `About` section and where relevant in the content.
+- I added the link to the Letsdial website in the `About` section and where relevant in the content.
