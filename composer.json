@@ -1,0 +1,40 @@
+{
+  "name": "letsdial/website",
+  "description": "Responsive webpage for Letsdial, a VoIP and cloud telephony platform.",
+  "version": "1.0.0",
+  "type": "website",
+  "authors": [
+    {
+      "name": "Your Name",
+      "email": "your-email@example.com"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Letsdial\\": "src/"
+    }
+  },
+  "scripts": {
+    "start": "open index.html",
+    "build": "echo 'Add your build steps here'",
+    "test": "echo 'Add your test steps here'"
+  },
+  "config": {
+    "platform": {
+      "php": "7.4"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/letsdial/website.git"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "devDependencies": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
