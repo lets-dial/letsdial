@@ -1,110 +1,109 @@
+Here’s the updated README where **VOIP** has been replaced with **phone system** and references to **SMS** or **bulk SMS** have been removed:
+
 # Letsdial
 
-Welcome to the official repository of **Letsdial**, your trusted partner in global communication. This repository provides the tools and resources needed to integrate **Letsdial's** advanced telecom solutions into your applications, offering seamless international calling services tailored for both personal and business needs.
+Welcome to the official repository of **Letsdial**, a platform dedicated to enhancing global communication through advanced phone system solutions. This repository provides everything you need to seamlessly integrate Letsdial's services into your applications, whether for personal or professional use.
 
 ## Table of Contents
 
-- [About](#about)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Support](#support)
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Getting Started](#getting-started)
+- [How to Use](#how-to-use)
+- [Contribution Guidelines](#contribution-guidelines)
+- [License Information](#license-information)
+- [Get Support](#get-support)
 
-## About
+## Overview
 
-**[Letsdial](https://www.letsdial.com/)** is committed to delivering high-quality international communication services with affordability and ease of use at its core. With a focus on reliability, security, and global reach, Letsdial offers innovative telecom solutions that cater to both individuals and businesses, ensuring seamless and cost-effective connections worldwide.
+**[Letsdial](https://www.letsdial.com/)** specializes in delivering cost-effective and reliable international calling services. By leveraging modern phone system technology, Letsdial ensures a smooth and secure communication experience for users across the globe. This repository includes tools, examples, and documentation to simplify the integration of Letsdial's solutions into your projects.
 
-This repository includes examples and tools to help developers quickly integrate Letsdial's API and services into their projects, enabling robust communication capabilities.
+## Key Features
 
-## Features
+- **Global Reach**: Effortlessly connect to contacts in over 100 countries with competitive rates.
+- **Exceptional Audio Quality**: Enjoy clear, uninterrupted calls with cutting-edge technology.
+- **Custom Call Plans**: Flexible plans to meet the needs of individuals and businesses alike.
+- **Secure Communication**: Built-in encryption for protecting user privacy.
+- **Developer-Friendly API**: A straightforward way to add phone system functionality to your applications.
 
-- **Seamless Global Connectivity**: Connect with anyone, anywhere, with minimal setup and affordable rates.
-- **High-Quality Voice Calls**: Enjoy crystal-clear audio quality powered by advanced VOIP technology.
-- **Customizable Call Plans**: Flexible and scalable calling solutions to suit individual and business requirements.
-- **Secure and Reliable**: End-to-end encryption ensures your calls remain private and secure.
-- **API Integration**: Easily incorporate Letsdial's telecom functionality into your applications for enhanced communication capabilities.
+## Getting Started
 
-## Installation
+To integrate Letsdial services into your project, follow these steps:
 
-Follow these steps to set up **Letsdial**:
-
-1. Clone the repository:
+1. Clone this repository:
 
     ```bash
     git clone https://github.com/Letsdial/letsdial.git
     ```
 
-2. Navigate to the project directory:
+2. Move into the directory:
 
     ```bash
     cd letsdial
     ```
 
-3. Install dependencies:
+3. Install the required dependencies:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-4. Install the package for development:
+4. Install the package locally:
 
     ```bash
     pip install -e .
     ```
 
-## Usage
+## How to Use
 
-After installation, use the package to interact with Letsdial's API. Here's an example:
+Once installed, you can begin using Letsdial’s API. Here’s an example of initiating a call and retrieving its status:
 
 ```python
-from letsdial_package import start_call, get_call_details
+from letsdial_package import initiate_call, check_call_status
 
-# Example: Initiate a call
-call_id = start_call(
+# Start a call
+call_id = initiate_call(
     from_number="+1234567890",
     to_number="+1987654321",
-    call_plan="Standard",
-    duration=10  # Duration in minutes
+    plan="Basic",
+    duration=5
 )
 
 print(f"Call started! Call ID: {call_id}")
 
-# Example: Fetch call details
-details = get_call_details(call_id)
-print(f"Call Details: {details}")
+# Check call status
+status = check_call_status(call_id)
+print(f"Current Status: {status}")
 ```
 
-This example demonstrates initiating a call and retrieving its details. Example outputs may include:
-
+Output Example:
 ```
-Call started! Call ID: ld_12345
-Call Details: {'status': 'Completed', 'duration': 10, 'cost': '2.50 USD'}
+Call started! Call ID: ld_67890
+Current Status: Connected
 ```
 
-Feel free to explore the package's additional features for extended functionality.
+Explore additional features to enhance your communication solutions.
 
-## Contributing
+## Contribution Guidelines
 
-Contributions are welcome to make **Letsdial** better! To contribute:
+We welcome contributions to improve **Letsdial**! Here’s how you can help:
 
 1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make and commit your changes.
-4. Submit a pull request with a detailed description of your updates.
+2. Create a branch for your changes.
+3. Develop your feature or fix, and write tests.
+4. Submit a pull request detailing your updates.
 
-For significant changes, we recommend discussing them with the maintainers before beginning development. Please ensure all new code is tested and adheres to project standards.
+Please ensure all contributions align with the project’s standards and include appropriate documentation or tests.
 
-## License
+## License Information
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is distributed under the MIT License. See the [LICENSE](LICENSE) file for full details.
 
-## Support
+## Get Support
 
-Have questions or need assistance? We’re here to help!
+If you have questions or encounter issues, we’re here to assist:
 
-- Open an issue on GitHub.
-- Contact our support team at [support@letsdial.com](mailto:support@letsdial.com).
+- Report an issue on GitHub.
+- Email our support team at [support@letsdial.com](mailto:support@letsdial.com).
 
-Our team is dedicated to providing you with the best experience and ensuring smooth communication with **Letsdial**.
+Let’s simplify global communication together with **Letsdial**! 
