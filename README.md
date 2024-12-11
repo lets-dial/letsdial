@@ -1,5 +1,3 @@
-Here’s the updated README where **VOIP** has been replaced with **phone system** and references to **SMS** or **bulk SMS** have been removed:
-
 # Letsdial
 
 Welcome to the official repository of **Letsdial**, a platform dedicated to enhancing global communication through advanced phone system solutions. This repository provides everything you need to seamlessly integrate Letsdial's services into your applications, whether for personal or professional use.
