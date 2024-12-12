@@ -1,0 +1,20 @@
+{
+  "name": "letsdial",
+  "version": "1.0.0",
+  "description": "Your package description",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lets-dial/lets-dial.git.git"
+  },
+  "keywords": ["lets-dial", "your-keyword"],
+  "author": "Letsdial <info@letsdial.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lets-dial/lets-dial/issues"
+  },
+  "homepage": "https://github.com/lets-dial/lets-dial#readme"
+}
