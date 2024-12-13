@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lets-dial/lets-dial.git.git"
+    "url": "git+https://github.com/lets-dial/letsdial.git.git"
   },
   "keywords": ["lets-dial", "your-keyword"],
   "author": "Letsdial <info@letsdial.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lets-dial/lets-dial/issues"
+    "url": "https://github.com/lets-dial/letsdial/issues"
   },
-  "homepage": "https://github.com/lets-dial/lets-dial#readme"
+  "homepage": "https://github.com/lets-dial/letsdial#readme"
 }
