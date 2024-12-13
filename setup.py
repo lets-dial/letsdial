@@ -8,7 +8,7 @@ setup(
     description='A brief description of your letsdial package',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',  # If you're using markdown in the README
-    url='https://github.com/lets-dial/lets-dial',  # Link to your GitHub repository
+    url='https://github.com/lets-dial/letsdial',  # Link to your GitHub repository
     packages=find_packages(),  # Automatically include all packages in the repo
     install_requires=[
         # Add any dependencies your package needs
